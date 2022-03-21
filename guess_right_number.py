@@ -6,19 +6,19 @@
 
 import constants
 
+
 def main():
-    # This is a random number guesser 
+
+    # This is a random number guesser
 
     # input
     random_number = int(input("Enter your first guess here (0-9): "))
 
     # process & output
     if random_number != constants.guess_number:
-        print ("Guess is incorrect")
+        print("Guess is incorrect")
     if random_number == constants.guess_number:
-        print ("Guess is correct!")
-
-
+        print("Guess is correct!")
 
 
 if __name__ == "__main__":
